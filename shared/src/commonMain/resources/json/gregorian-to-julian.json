@@ -1,0 +1,121 @@
+{
+  "google": [
+    {
+      "current_name": "Greece",
+      "year_of_transition": 1923,
+      "date_before_transition": "1923-03-31",
+      "date_after_transition": "1923-04-14",
+      "days_omitted": 13,
+      "particulars": "The transition in Greece was controversial, as many people were reluctant to give up the Gregorian calendar. However, the Greek government ultimately decided to make the change in order to align the country's calendar with the rest of the world.",
+      "source": "https://en.wikipedia.org/wiki/List_of_countries_that_have_adopted_or_rejected_the_Gregorian_calendar"
+    },
+    {
+      "current_name": "Ethiopia",
+      "year_of_transition": 1993,
+      "date_before_transition": "1993-01-29",
+      "date_after_transition": "1993-02-14",
+      "days_omitted": 14,
+      "particulars": "The transition in Ethiopia was also controversial, but for different reasons. The Ethiopian Orthodox Church still uses the Julian calendar, and many Ethiopians were opposed to the change because they believed it would interfere with religious observances. However, the Ethiopian government ultimately decided to make the change in order to facilitate trade and economic relations with the rest of the world.",
+      "source": "https://en.wikipedia.org/wiki/List_of_countries_that_have_adopted_or_rejected_the_Gregorian_calendar"
+    },
+    {
+      "current_name": "North Korea",
+      "year_of_transition": null,
+      "date_before_transition": null,
+      "date_after_transition": null,
+      "days_omitted": null,
+      "particulars": " North Korea uses the Juche calendar, which is based on the birth of Kim Il-sung, the country's founder. The Juche calendar is 99 years ahead of the Gregorian calendar, so the current year in North Korea is 111.\n\nSome people argue that North Korea has effectively abandoned the Gregorian calendar, as the Juche calendar is not widely used outside of the country. However, the North Korean government maintains that the Juche calendar is a legitimate calendar, and that it is not abandoning the Gregorian calendar.",
+      "source": "https://en.wikipedia.org/wiki/Juche_calendar"
+    },
+    {
+      "current_name": "Belarus",
+      "historic_area": "Lithuania Governorate",
+      "year_of_transition": "1800",
+      "date_before_transition": "11 Jan",
+      "date_after_transition": "1 Jan",
+      "days_omitted": "-11",
+      "particulars": "Return to the Julian calendar",
+      "source": ""
+    },
+    {
+      "current_name": "Canada",
+      "historic_area": "Nova Scotia",
+      "year_of_transition": "1710",
+      "date_before_transition": "13 Oct",
+      "date_after_transition": "3 Oct",
+      "days_omitted": "-11",
+      "particulars": "Return to the Julian calendar",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Lorraine",
+      "year_of_transition": "1735",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "-11",
+      "particulars": "Return to the Julian calendar",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "France",
+      "year_of_transition": "1793",
+      "date_before_transition": "23 Sep",
+      "date_after_transition": "3 Vend. (II)",
+      "days_omitted": "N/A",
+      "particulars": "Introduction of the French Republican calendar",
+      "source": ""
+    },
+    {
+      "current_name": "Latvia",
+      "historic_area": "Courland",
+      "year_of_transition": "1796",
+      "date_before_transition": "7 Feb",
+      "date_after_transition": "28 Jan",
+      "days_omitted": "-11",
+      "particulars": "Return to the Julian calendar",
+      "source": "[10][17]"
+    },
+    {
+      "current_name": "Lithuania",
+      "historic_area": "Lithuania Governorate",
+      "year_of_transition": "1800",
+      "date_before_transition": "11 Jan",
+      "date_after_transition": "1 Jan",
+      "days_omitted": "-11",
+      "particulars": "Return to the Julian calendar",
+      "source": ""
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Groningen (city)",
+      "year_of_transition": "1594",
+      "date_before_transition": "19 Nov",
+      "date_after_transition": "10 Nov",
+      "days_omitted": "-10",
+      "particulars": "Return to the Julian calendar",
+      "source": "[6][22][23]"
+    },
+    {
+      "current_name": "Sweden",
+      "historic_area": "Swedish Empire",
+      "year_of_transition": "1712",
+      "date_before_transition": "30 Feb\n(sic)",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "-1",
+      "particulars": "Including Finland; return to the Julian calendar",
+      "source": "[12]"
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Appenzell Ausserrhoden",
+      "year_of_transition": "1597",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "-10",
+      "particulars": "Return to the Julian calendar",
+      "source": ""
+    }
+  ]
+}

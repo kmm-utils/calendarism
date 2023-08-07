@@ -1,0 +1,1825 @@
+{
+  "wikipedia": [
+    {
+      "current_name": "Albania",
+      "historic_area": "Albania",
+      "year_of_transition": "1912",
+      "date_before_transition": "14 Nov",
+      "date_after_transition": "28 Nov",
+      "days_omitted": "13",
+      "particulars": "Albanian Catholics have used the Gregorian calendar since 5 Oct 1583.",
+      "source": "[2][3]"
+    },
+    {
+      "current_name": "Armenia",
+      "historic_area": "Transcaucasian Democratic Federative Republic",
+      "year_of_transition": "1918",
+      "date_before_transition": "17 Apr",
+      "date_after_transition": "1 May",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[4]"
+    },
+    {
+      "current_name": "Austria",
+      "historic_area": "Brixen, Salzburg, Tyrol",
+      "year_of_transition": "1583",
+      "date_before_transition": "5 Oct",
+      "date_after_transition": "16 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Austria",
+      "historic_area": "Carinthia",
+      "year_of_transition": "1584",
+      "date_before_transition": "6 Jan",
+      "date_after_transition": "17 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Austria",
+      "historic_area": "Duchy of Styria",
+      "year_of_transition": "1583",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Azerbaijan",
+      "historic_area": "Transcaucasian Democratic Federative Republic",
+      "year_of_transition": "1918",
+      "date_before_transition": "17 Apr",
+      "date_after_transition": "1 May",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[4]"
+    },
+    {
+      "current_name": "Belarus",
+      "historic_area": "Grand Duchy of Lithuania",
+      "year_of_transition": "1585",
+      "date_before_transition": "21 Dec",
+      "date_after_transition": "1 Jan\n(1586)",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[5]"
+    },
+    {
+      "current_name": "Belarus",
+      "historic_area": "Grodno Governorate",
+      "year_of_transition": "1915",
+      "date_before_transition": "22 Aug",
+      "date_after_transition": "5 Sept",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Belarus",
+      "historic_area": "Soviet Russia",
+      "year_of_transition": "1918",
+      "date_before_transition": "31 Jan",
+      "date_after_transition": "14 Feb",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Belgium",
+      "historic_area": "Flanders",
+      "year_of_transition": "1582",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "Edict of Francis, Duke of Anjou followed",
+      "source": "[6]"
+    },
+    {
+      "current_name": "Belgium",
+      "historic_area": "Liège",
+      "year_of_transition": "1583",
+      "date_before_transition": "10 Feb",
+      "date_after_transition": "21 Feb",
+      "days_omitted": "10",
+      "particulars": "Edict of Philip II of Spain followed",
+      "source": "[6][7][8]"
+    },
+    {
+      "current_name": "Belgium",
+      "historic_area": "Southern Netherlands",
+      "year_of_transition": "1582",
+      "date_before_transition": "20 Dec",
+      "date_after_transition": "31 Dec",
+      "days_omitted": "10",
+      "particulars": "or one day later; areas under Spanish rule: Artois, occupied Brabant, occupied Flanders, Hainaut, Limburg, Luxemburg, Namur",
+      "source": "[7][9][10]"
+    },
+    {
+      "current_name": "Bulgaria",
+      "historic_area": "Bulgaria",
+      "year_of_transition": "1916",
+      "date_before_transition": "31 Mar",
+      "date_after_transition": "14 Apr",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Cambodia",
+      "historic_area": "French colonial empire",
+      "year_of_transition": "1863",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Burmese calendar.",
+      "source": ""
+    },
+    {
+      "current_name": "Canada",
+      "historic_area": "French colonial empire",
+      "year_of_transition": "1582",
+      "date_before_transition": "9 Dec",
+      "date_after_transition": "20 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Canada",
+      "historic_area": "British Empire",
+      "year_of_transition": "1752",
+      "date_before_transition": "2 Sep",
+      "date_after_transition": "14 Sep",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "China",
+      "historic_area": "China",
+      "year_of_transition": "1911",
+      "date_before_transition": "12 \"11th Month\"",
+      "date_after_transition": "1 Jan\n(1912)",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Chinese calendar. Because of a civil war, the official transition ended in 1929. The Minguo era was replaced by the Anno Domini era in 1949, but is still used in Taiwan.",
+      "source": ""
+    },
+    {
+      "current_name": "Czech Republic",
+      "historic_area": "Bohemia",
+      "year_of_transition": "1584",
+      "date_before_transition": "6 Jan",
+      "date_after_transition": "17 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Czech Republic",
+      "historic_area": "Moravia",
+      "year_of_transition": "1584",
+      "date_before_transition": "3 Oct",
+      "date_after_transition": "14 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Czech Republic",
+      "historic_area": "Silesia",
+      "year_of_transition": "1584",
+      "date_before_transition": "12 Jan",
+      "date_after_transition": "23 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Denmark",
+      "historic_area": "Denmark-Norway",
+      "year_of_transition": "1700",
+      "date_before_transition": "18 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Egypt",
+      "historic_area": "Egypt",
+      "year_of_transition": "1875",
+      "date_before_transition": "6 Epag.",
+      "date_after_transition": "11 Sept",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Alexandrian calendar for fiscal purposes",
+      "source": "[11]"
+    },
+    {
+      "current_name": "Estonia",
+      "historic_area": "Estonia",
+      "year_of_transition": "1918",
+      "date_before_transition": "15 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Faroe Islands",
+      "historic_area": "Norway",
+      "year_of_transition": "1700",
+      "date_before_transition": "16 Nov",
+      "date_after_transition": "28 Nov",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "France",
+      "year_of_transition": "1582",
+      "date_before_transition": "9 Dec",
+      "date_after_transition": "20 Dec",
+      "days_omitted": "10",
+      "particulars": "Excluding Alsace and Lorraine",
+      "source": "[9][10][12]"
+    },
+    {
+      "current_name": "France",
+      "historic_area": "France",
+      "year_of_transition": "1805",
+      "date_before_transition": "10 Niv.\n(XIV)",
+      "date_after_transition": "1 Jan\n1806",
+      "days_omitted": "N/A",
+      "particulars": "The French Republican calendar ended.",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Sedan",
+      "year_of_transition": "1582",
+      "date_before_transition": "9 Dec",
+      "date_after_transition": "20 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[12]"
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Austrian Upper Alsace and Breisgau",
+      "year_of_transition": "1583",
+      "date_before_transition": "13 Oct",
+      "date_after_transition": "24 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[13]"
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Roman Catholic Archdiocese of Strasbourg",
+      "year_of_transition": "1583",
+      "date_before_transition": "16 Nov",
+      "date_after_transition": "27 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Alsace, Protestant parts (except Mulhouse, see below), i.e. Strasbourg, and, on same date or shortly after, Protestant parishes over Alsace",
+      "year_of_transition": "1682",
+      "date_before_transition": "5 Feb",
+      "date_after_transition": "16 Feb",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Lorraine",
+      "year_of_transition": "1582",
+      "date_before_transition": "9 Dec",
+      "date_after_transition": "20 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Lorraine",
+      "year_of_transition": "1760",
+      "date_before_transition": "16 Feb",
+      "date_after_transition": "28 Feb",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "France",
+      "historic_area": "Mulhouse",
+      "year_of_transition": "1700",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "12 Jan\n(1701)",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[10][12]"
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Aachen",
+      "year_of_transition": "1582",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "11 Jan (1583)",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Augsburg",
+      "year_of_transition": "1583",
+      "date_before_transition": "13 Feb",
+      "date_after_transition": "24 Feb",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Baden-Baden",
+      "year_of_transition": "1583",
+      "date_before_transition": "16 Nov",
+      "date_after_transition": "27 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Bavaria, Regensburg, Freising",
+      "year_of_transition": "1583",
+      "date_before_transition": "5 Oct",
+      "date_after_transition": "16 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Breisgau-Hochschwarzwald",
+      "year_of_transition": "1583",
+      "date_before_transition": "13 Oct",
+      "date_after_transition": "24 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Cologne (archdiocese)",
+      "year_of_transition": "1583",
+      "date_before_transition": "3 Nov",
+      "date_after_transition": "14 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[14]"
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Jülich-Berg",
+      "year_of_transition": "1583",
+      "date_before_transition": "2 Nov",
+      "date_after_transition": "13 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Mainz",
+      "year_of_transition": "1583",
+      "date_before_transition": "11 Nov",
+      "date_after_transition": "22 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Münster, Duchy of Cleves",
+      "year_of_transition": "1583",
+      "date_before_transition": "17 Nov",
+      "date_after_transition": "28 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Osnabrück",
+      "year_of_transition": "1624",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Paderborn",
+      "year_of_transition": "1585",
+      "date_before_transition": "16 Jun",
+      "date_after_transition": "27 Jun",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Pfalz-Neuburg",
+      "year_of_transition": "1585",
+      "date_before_transition": "13 Dec",
+      "date_after_transition": "24 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Silesia",
+      "year_of_transition": "1584",
+      "date_before_transition": "12 Jan",
+      "date_after_transition": "23 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Trier",
+      "year_of_transition": "1583",
+      "date_before_transition": "4 Oct",
+      "date_after_transition": "15 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Westphalia",
+      "year_of_transition": "1584",
+      "date_before_transition": "1 Jul",
+      "date_after_transition": "12 Jul",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Würzburg",
+      "year_of_transition": "1583",
+      "date_before_transition": "4 Nov",
+      "date_after_transition": "15 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Prince-Bishopric of Hildesheim",
+      "year_of_transition": "1631",
+      "date_before_transition": "15 Mar",
+      "date_after_transition": "26 Mar",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Bishopric of Minden",
+      "year_of_transition": "1668",
+      "date_before_transition": "1 Feb",
+      "date_after_transition": "12 Feb",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Germany",
+      "historic_area": "Germany, Protestant parts",
+      "year_of_transition": "1700",
+      "date_before_transition": "18 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Georgia",
+      "historic_area": "Transcaucasian Democratic Federative Republic",
+      "year_of_transition": "1918",
+      "date_before_transition": "17 Apr",
+      "date_after_transition": "1 May",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[4]"
+    },
+    {
+      "current_name": "Greece",
+      "historic_area": "Greece",
+      "year_of_transition": "1923",
+      "date_before_transition": "15 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "13",
+      "particulars": "Excluding Mount Athos",
+      "source": "[10][15]"
+    },
+    {
+      "current_name": "Hungary",
+      "historic_area": "Hungary",
+      "year_of_transition": "1587",
+      "date_before_transition": "21 Oct",
+      "date_after_transition": "1 Nov",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Iceland",
+      "historic_area": "Norway",
+      "year_of_transition": "1700",
+      "date_before_transition": "16 Nov",
+      "date_after_transition": "28 Nov",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Ireland",
+      "historic_area": "O'Neill and O'Donnell Gaelic Lordships in Ulster",
+      "year_of_transition": "1584",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "Papal dispensation to return to Julian calendar applied for in 1630, in operation by 1641",
+      "source": "[16]"
+    },
+    {
+      "current_name": "Ireland",
+      "historic_area": "Kingdom of Ireland",
+      "year_of_transition": "1752",
+      "date_before_transition": "2 Sept",
+      "date_after_transition": "14 Sept",
+      "days_omitted": "11",
+      "particulars": "The British Calendar (New Style) Act 1750 also applied to Ireland (as stated in its preamble).  For details, see Calendar Act: Ireland.",
+      "source": ""
+    },
+    {
+      "current_name": "Italy",
+      "historic_area": "various",
+      "year_of_transition": "1582",
+      "date_before_transition": "4 Oct",
+      "date_after_transition": "15 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[9][10]"
+    },
+    {
+      "current_name": "Italy",
+      "historic_area": "Tyrol",
+      "year_of_transition": "1583",
+      "date_before_transition": "5 Oct",
+      "date_after_transition": "16 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Japan",
+      "historic_area": "Japan",
+      "year_of_transition": "1872",
+      "date_before_transition": "2 \"12th month\"",
+      "date_after_transition": "1 Jan\n(1873)",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Japanese calendar. Japanese era names still remain in use.",
+      "source": ""
+    },
+    {
+      "current_name": "Laos",
+      "historic_area": "French colonial empire",
+      "year_of_transition": "1889",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Burmese calendar.",
+      "source": ""
+    },
+    {
+      "current_name": "Latvia",
+      "historic_area": "Courland",
+      "year_of_transition": "1617",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[10][17][14]"
+    },
+    {
+      "current_name": "Latvia",
+      "historic_area": "Courland",
+      "year_of_transition": "1915",
+      "date_before_transition": "11 May",
+      "date_after_transition": "25 May",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Latvia",
+      "historic_area": "Livland",
+      "year_of_transition": "1915",
+      "date_before_transition": "22 Aug",
+      "date_after_transition": "5 Sept",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Lithuania",
+      "historic_area": "Grand Duchy of Lithuania",
+      "year_of_transition": "1585",
+      "date_before_transition": "21 Dec",
+      "date_after_transition": "1 Jan\n(1586)",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[18]"
+    },
+    {
+      "current_name": "Lithuania",
+      "historic_area": "Kovno and Vilna Governorates",
+      "year_of_transition": "1915",
+      "date_before_transition": "11 May",
+      "date_after_transition": "25 May",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[19]"
+    },
+    {
+      "current_name": "Lithuania",
+      "historic_area": "Duchy of Prussia",
+      "year_of_transition": "1612",
+      "date_before_transition": "22 Aug",
+      "date_after_transition": "2 Sept",
+      "days_omitted": "10",
+      "particulars": "North eastern Ducal Prussia is now part of Lithuania.",
+      "source": "[10][17]"
+    },
+    {
+      "current_name": "Luxembourg",
+      "historic_area": "Duchy of Luxemburg",
+      "year_of_transition": "1582",
+      "date_before_transition": "20 Dec",
+      "date_after_transition": "31 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Montenegro",
+      "historic_area": "Yugoslavia",
+      "year_of_transition": "1919",
+      "date_before_transition": "14 Jan",
+      "date_after_transition": "28 Jan",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[20]"
+    },
+    {
+      "current_name": "Myanmar",
+      "historic_area": "Burma (British Empire)",
+      "year_of_transition": "1885",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Burmese calendar.",
+      "source": ""
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Brabant",
+      "year_of_transition": "1582",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "Edict of Francis, Duke of Anjou followed",
+      "source": "[6][9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Drenthe",
+      "year_of_transition": "1701",
+      "date_before_transition": "30 Apr",
+      "date_after_transition": "12 May",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Frisia",
+      "year_of_transition": "1700",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "12 Jan\n(1701)",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Gelderland",
+      "year_of_transition": "1700",
+      "date_before_transition": "30 Jun",
+      "date_after_transition": "12 Jul",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Groningen (city)",
+      "year_of_transition": "1583",
+      "date_before_transition": "1 Mar",
+      "date_after_transition": "12 Mar",
+      "days_omitted": "10",
+      "particulars": "Edict of Philip II of Spain was: 10 followed by 21 February (proclaimed later)",
+      "source": "[6][9][22][23]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Groningen (province)",
+      "year_of_transition": "1700",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "12 Jan\n(1701)",
+      "days_omitted": "11",
+      "particulars": "Stad and Ommelanden",
+      "source": "[9][21][22]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Holland",
+      "year_of_transition": "1583",
+      "date_before_transition": "1 Jan",
+      "date_after_transition": "12 Jan",
+      "days_omitted": "10",
+      "particulars": "Edict of Francis, Duke of Anjou followed later on",
+      "source": "[6][9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Overijssel",
+      "year_of_transition": "1700",
+      "date_before_transition": "30 Nov",
+      "date_after_transition": "12 Dec",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "States General",
+      "year_of_transition": "1582",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "Edict of Francis, Duke of Anjou followed",
+      "source": "[6][9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Utrecht",
+      "year_of_transition": "1700",
+      "date_before_transition": "30 Nov",
+      "date_after_transition": "12 Dec",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": "[9][21]"
+    },
+    {
+      "current_name": "Netherlands",
+      "historic_area": "Zeeland",
+      "year_of_transition": "1582",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "Edict of Francis, Duke of Anjou followed",
+      "source": "[6][9][21]"
+    },
+    {
+      "current_name": "North Korea",
+      "historic_area": "Joseon",
+      "year_of_transition": "1895",
+      "date_before_transition": "16 \"11th month\"",
+      "date_after_transition": "1 Jan\n(1896)",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Korean calendar. Besides the Anno Domini era, the Juche era is in use.",
+      "source": ""
+    },
+    {
+      "current_name": "North Macedonia",
+      "historic_area": "Yugoslavia",
+      "year_of_transition": "1919",
+      "date_before_transition": "14 Jan",
+      "date_after_transition": "28 Jan",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[20]"
+    },
+    {
+      "current_name": "Norway",
+      "historic_area": "Denmark-Norway",
+      "year_of_transition": "1700",
+      "date_before_transition": "18 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Poland",
+      "historic_area": "Poland",
+      "year_of_transition": "1582",
+      "date_before_transition": "4 Oct",
+      "date_after_transition": "15 Oct",
+      "days_omitted": "10",
+      "particulars": "Local resistance",
+      "source": "[17]"
+    },
+    {
+      "current_name": "Poland",
+      "historic_area": "Duchy of Prussia",
+      "year_of_transition": "1612",
+      "date_before_transition": "22 Aug",
+      "date_after_transition": "2 Sept",
+      "days_omitted": "10",
+      "particulars": "Southern Ducal Prussia is now part of Poland",
+      "source": "[10][17]"
+    },
+    {
+      "current_name": "Poland",
+      "historic_area": "Silesia",
+      "year_of_transition": "1584",
+      "date_before_transition": "12 Jan",
+      "date_after_transition": "23 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Portugal",
+      "historic_area": "Portuguese Empire",
+      "year_of_transition": "1582",
+      "date_before_transition": "4 Oct",
+      "date_after_transition": "15 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[9][10]"
+    },
+    {
+      "current_name": "Romania",
+      "historic_area": "Transylvania",
+      "year_of_transition": "1590",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Romania",
+      "historic_area": "Romania",
+      "year_of_transition": "1919",
+      "date_before_transition": "31 Mar",
+      "date_after_transition": "14 Apr",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[24]"
+    },
+    {
+      "current_name": "Russia",
+      "historic_area": "Duchy of Prussia",
+      "year_of_transition": "1612",
+      "date_before_transition": "22 Aug",
+      "date_after_transition": "2 Sept",
+      "days_omitted": "10",
+      "particulars": "Northern Ducal Prussia is now part of Russia.",
+      "source": "[10][17]"
+    },
+    {
+      "current_name": "Russia",
+      "historic_area": "Russia",
+      "year_of_transition": "1918",
+      "date_before_transition": "31 Jan",
+      "date_after_transition": "14 Feb",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[25]"
+    },
+    {
+      "current_name": "Saudi Arabia",
+      "historic_area": "Saudi Arabia",
+      "year_of_transition": "2016",
+      "date_before_transition": "28 DaH (1437)",
+      "date_after_transition": "1 Oct",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Islamic calendar.",
+      "source": "[26][27]"
+    },
+    {
+      "current_name": "Serbia",
+      "historic_area": "Yugoslavia",
+      "year_of_transition": "1919",
+      "date_before_transition": "14 Jan",
+      "date_after_transition": "28 Jan",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[20]"
+    },
+    {
+      "current_name": "Slovenia",
+      "historic_area": "Duchy of Styria",
+      "year_of_transition": "1583",
+      "date_before_transition": "14 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Spain",
+      "historic_area": "Spanish Empire",
+      "year_of_transition": "1582",
+      "date_before_transition": "4 Oct",
+      "date_after_transition": "15 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": "[9][10]"
+    },
+    {
+      "current_name": "South Korea",
+      "historic_area": "Joseon",
+      "year_of_transition": "1895",
+      "date_before_transition": "16 \"11th month\"",
+      "date_after_transition": "1 Jan\n(1896)",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Korean calendar.",
+      "source": ""
+    },
+    {
+      "current_name": "Sweden",
+      "historic_area": "Swedish Empire",
+      "year_of_transition": "1700",
+      "date_before_transition": "28 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "1",
+      "particulars": "Including Finland; introduction of the Swedish calendar",
+      "source": "[12]"
+    },
+    {
+      "current_name": "Sweden",
+      "historic_area": "Sweden",
+      "year_of_transition": "1753",
+      "date_before_transition": "17 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "11",
+      "particulars": "Including Finland",
+      "source": "[12]"
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Roman Catholic Diocese of Basel",
+      "year_of_transition": "1583",
+      "date_before_transition": "20 Oct",
+      "date_after_transition": "31 Oct",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Luzern, Uri, Schwyz, Zug, Freiburg, Solothurn, Le Landeron",
+      "year_of_transition": "1584",
+      "date_before_transition": "11 Jan",
+      "date_after_transition": "22 Jan",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Obwalden, Nidwalden",
+      "year_of_transition": "1584",
+      "date_before_transition": "11 Feb",
+      "date_after_transition": "22 Feb",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Thurgau, Appenzell Innerrhoden, Appenzell Ausserrhoden",
+      "year_of_transition": "1584",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Lower Valais",
+      "year_of_transition": "1623",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Graubünden (Catholic parts)",
+      "year_of_transition": "1623–1624",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Valais",
+      "year_of_transition": "1655",
+      "date_before_transition": "28 Feb",
+      "date_after_transition": "11 Mar",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Switzerland, Protestant parts",
+      "year_of_transition": "1700",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "12 Jan\n(1701)",
+      "days_omitted": "11",
+      "particulars": "Basel, Bern, Neuchâtel, Sargans, Schaffhausen, Geneva and Zürich",
+      "source": "[10][12]"
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Glarus (Catholic part)",
+      "year_of_transition": "1700",
+      "date_before_transition": "31 Dec",
+      "date_after_transition": "12 Jan\n(1701)",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "City of St. Gallen",
+      "year_of_transition": "1724",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Glarus (Protestant part)",
+      "year_of_transition": "1798",
+      "date_before_transition": "22 Jun",
+      "date_after_transition": "4 Jul",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Appenzell Ausserrhoden",
+      "year_of_transition": "1798",
+      "date_before_transition": "13 Dec",
+      "date_after_transition": "25 Dec",
+      "days_omitted": "11",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "Switzerland",
+      "historic_area": "Graubünden (Protestant part)",
+      "year_of_transition": "1783–1811",
+      "date_before_transition": "",
+      "date_after_transition": "",
+      "days_omitted": "11–12",
+      "particulars": "Communes changed at different times. Oberengadin and Bergel changed in 1783. In Schiers and Grüsch, 25 Dec 1811 was followed by 7 Jan 1812.",
+      "source": ""
+    },
+    {
+      "current_name": "Thailand",
+      "historic_area": "Siam",
+      "year_of_transition": "1889",
+      "date_before_transition": "",
+      "date_after_transition": "1 Apr",
+      "days_omitted": "N/A",
+      "particulars": "Previously used the Thai lunar calendar. The year numbering followed the Rattanakosin Era until 1912, when it was replaced by the Buddhist era; see Thai solar calendar.",
+      "source": ""
+    },
+    {
+      "current_name": "Turkey",
+      "historic_area": "Ottoman Empire",
+      "year_of_transition": "1917",
+      "date_before_transition": "15 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "13",
+      "particulars": "The year numbering followed the Rumi calendar until 1 Jan 1926, when the Anno Domini era was adopted.",
+      "source": ""
+    },
+    {
+      "current_name": "Ukraine",
+      "historic_area": "Ukrainian People's Republic",
+      "year_of_transition": "1918",
+      "date_before_transition": "15 Feb",
+      "date_after_transition": "1 Mar",
+      "days_omitted": "13",
+      "particulars": "",
+      "source": "[28]"
+    },
+    {
+      "current_name": "United Kingdom",
+      "historic_area": "Kingdom of Great Britain and\nKingdom of Ireland",
+      "year_of_transition": "1752",
+      "date_before_transition": "2 Sept",
+      "date_after_transition": "14 Sept",
+      "days_omitted": "11",
+      "particulars": "The Calendar (New Style) Act 1750 was passed to ensure alignment with the rest of Europe, but made no reference to Gregory.",
+      "source": "[9][10]"
+    },
+    {
+      "current_name": "United States of America",
+      "historic_area": "French colonial empire and\nSpanish Empire",
+      "year_of_transition": "1582",
+      "date_before_transition": "9 Dec",
+      "date_after_transition": "20 Dec",
+      "days_omitted": "10",
+      "particulars": "",
+      "source": ""
+    },
+    {
+      "current_name": "United States of America",
+      "historic_area": "British Empire",
+      "year_of_transition": "1752",
+      "date_before_transition": "2 Sept",
+      "date_after_transition": "14 Sept",
+      "days_omitted": "11",
+      "particulars": "Some States adopted as their Common Law the laws of England in 1607, prior to the New Style Calendar Act.[citation needed]",
+      "source": ""
+    },
+    {
+      "current_name": "United States of America",
+      "historic_area": "Russian Empire",
+      "year_of_transition": "1867",
+      "date_before_transition": "6 Oct",
+      "date_after_transition": "18 Oct",
+      "days_omitted": "11",
+      "particulars": "Alaska adopted the Gregorian calendar on incorporation into the United States, which preceded adoption by Russia. The International Date Line was changed, so only 11 days were omitted (a Friday was followed by another Friday).",
+      "source": "[29]"
+    }
+  ],
+  "google": [
+    {
+      "year_of_transition": 1912,
+      "current_name": "Albania",
+      "name_at_time": "Kingdom of Albania",
+      "historic_area": "Albania",
+      "date_before_transition": "1912-11-14",
+      "date_after_transition": "1912-11-28",
+      "days_omitted": 13,
+      "particulars": "Albanian Catholics have used the Gregorian calendar since 5 Oct 1583.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Armenia",
+      "name_at_time": "Transcaucasian Democratic Federative Republic",
+      "historic_area": "Transcaucasia",
+      "date_before_transition": "1918-04-17",
+      "date_after_transition": "1918-05-01",
+      "days_omitted": 13,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1583,
+      "current_name": "Austria",
+      "name_at_time": "Holy Roman Empire",
+      "historic_area": "Holy Roman Empire",
+      "date_before_transition": "1583-10-05",
+      "date_after_transition": "1583-10-16",
+      "days_omitted": 10,
+      "particulars": "In Austria, the Gregorian calendar was introduced in the provinces of Brixen, Salzburg, and Tyrol on 5 October 1583, and in the rest of the country on 16 October 1583.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1811,
+      "current_name": "Austria",
+      "name_at_time": "Austrian Empire",
+      "historic_area": "Austrian Empire",
+      "date_before_transition": "1811-12-01",
+      "date_after_transition": "1812-01-01",
+      "days_omitted": 1,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Austria",
+      "name_at_time": "Republic of Austria",
+      "historic_area": "Austria-Hungary",
+      "date_before_transition": "1918-08-31",
+      "date_after_transition": "1918-09-15",
+      "days_omitted": 15,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Azerbaijan",
+      "name_at_time": "Transcaucasian Democratic Federative Republic",
+      "historic_area": "Transcaucasia",
+      "date_before_transition": "1918-04-17",
+      "date_after_transition": "1918-05-01",
+      "days_omitted": 13,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1585,
+      "current_name": "Belarus",
+      "name_at_time": "Grand Duchy of Lithuania",
+      "historic_area": "Grand Duchy of Lithuania",
+      "date_before_transition": "1585-12-21",
+      "date_after_transition": "1586-01-01",
+      "days_omitted": 10,
+      "particulars": "In Belarus, the Gregorian calendar was introduced in the Duchy of Lithuania on 21 December 1585, and in the Crown of the Kingdom of Poland on 1 January 1586.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Belgium",
+      "name_at_time": "Spanish Netherlands",
+      "historic_area": "Spanish Netherlands",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1835,
+      "current_name": "Belgium",
+      "name_at_time": "Kingdom of Belgium",
+      "historic_area": "Kingdom of Belgium",
+      "date_before_transition": "1835-12-03",
+      "date_after_transition": "1835-12-14",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Belgium",
+      "name_at_time": "Spanish Netherlands",
+      "historic_area": "Spanish Netherlands",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1835,
+      "current_name": "Belgium",
+      "name_at_time": "Kingdom of Belgium",
+      "historic_area": "Kingdom of Belgium",
+      "date_before_transition": "1835-12-03",
+      "date_after_transition": "1835-12-14",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Flanders",
+      "name_at_time": "Spanish Netherlands",
+      "historic_area": "Spanish Netherlands",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Liège",
+      "name_at_time": "Prince-Bishopric of Liège",
+      "historic_area": "Prince-Bishopric of Liège",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1700,
+      "current_name": "Southern Netherlands",
+      "name_at_time": "Spanish Netherlands",
+      "historic_area": "Spanish Netherlands",
+      "date_before_transition": "1700-12-31",
+      "date_after_transition": "1701-01-11",
+      "days_omitted": 10,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1912,
+      "current_name": "Bulgaria",
+      "name_at_time": "Kingdom of Bulgaria",
+      "historic_area": "Bulgaria",
+      "date_before_transition": "1912-11-14",
+      "date_after_transition": "1912-11-28",
+      "days_omitted": 13,
+      "particulars": "Albanian Catholics have used the Gregorian calendar since 5 Oct 1583.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1900,
+      "current_name": "Cambodia",
+      "name_at_time": "French protectorate of Cambodia",
+      "historic_area": "French Indochina",
+      "date_before_transition": "1900-12-31",
+      "date_after_transition": "1901-01-11",
+      "days_omitted": 10,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1912,
+      "current_name": "China",
+      "name_at_time": "Republic of China",
+      "historic_area": "Qing Empire",
+      "date_before_transition": "1912-01-31",
+      "date_after_transition": "1912-02-13",
+      "days_omitted": 12,
+      "particulars": "",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1752,
+      "current_name": "Canada",
+      "name_at_time": "British colonies in North America",
+      "historic_area": "British North America",
+      "date_before_transition": "1752-09-02",
+      "date_after_transition": "1752-09-14",
+      "days_omitted": 11,
+      "particulars": "The British colonies in North America adopted the Gregorian calendar on 14 September 1752, omitting 11 days to bring their calendars into line with the Gregorian calendar.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1752,
+      "current_name": "Nova Scotia",
+      "name_at_time": "Province of Nova Scotia",
+      "historic_area": "Nova Scotia",
+      "date_before_transition": "1752-09-02",
+      "date_after_transition": "1752-09-14",
+      "days_omitted": 11,
+      "particulars": "Nova Scotia adopted the Gregorian calendar on 14 September 1752, along with the other British colonies in North America.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "French Colonial Empire",
+      "name_at_time": "French Colonial Empire",
+      "historic_area": "French Colonial Empire",
+      "date_before_transition": "1582-10-14",
+      "date_after_transition": "1582-10-25",
+      "days_omitted": 11,
+      "particulars": "The French Colonial Empire adopted the Gregorian calendar on 25 October 1582, following the lead of France.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1584,
+      "current_name": "Czech Republic",
+      "name_at_time": "Kingdom of Bohemia",
+      "historic_area": "Kingdom of Bohemia",
+      "date_before_transition": "1584-01-05",
+      "date_after_transition": "1584-01-16",
+      "days_omitted": 11,
+      "particulars": "The Gregorian calendar was introduced in the Kingdom of Bohemia on 5 January 1584, omitting 11 days to bring their calendars into line with the Gregorian calendar.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1775,
+      "current_name": "Silesia",
+      "name_at_time": "Austrian Silesia",
+      "historic_area": "Austrian Silesia",
+      "date_before_transition": "1775-12-31",
+      "date_after_transition": "1776-01-11",
+      "days_omitted": 10,
+      "particulars": "Austrian Silesia adopted the Gregorian calendar on 11 January 1776, following the lead of the Habsburg Empire.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1700,
+      "current_name": "Denmark",
+      "name_at_time": "Kingdom of Denmark",
+      "historic_area": "Kingdom of Denmark",
+      "date_before_transition": "1700-12-31",
+      "date_after_transition": "1701-01-11",
+      "days_omitted": 10,
+      "particulars": "Denmark adopted the Gregorian calendar on 11 January 1701, following the lead of the Protestant states of Germany.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1900,
+      "current_name": "Egypt",
+      "name_at_time": "Khedivate of Egypt",
+      "historic_area": "Khedivate of Egypt",
+      "date_before_transition": "1899-12-31",
+      "date_after_transition": "1900-01-11",
+      "days_omitted": 10,
+      "particulars": "Egypt adopted the Gregorian calendar on 11 January 1900, following the lead of the Ottoman Empire.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1923,
+      "current_name": "Estonia",
+      "name_at_time": "Republic of Estonia",
+      "historic_area": "Republic of Estonia",
+      "date_before_transition": "1923-02-13",
+      "date_after_transition": "1923-02-24",
+      "days_omitted": 11,
+      "particulars": "Estonia adopted the Gregorian calendar on 24 February 1923, following the lead of the rest of Europe.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1700,
+      "current_name": "Faroe Islands",
+      "name_at_time": "Danish Realm",
+      "historic_area": "Danish Realm",
+      "date_before_transition": "1700-12-31",
+      "date_after_transition": "1701-01-11",
+      "days_omitted": 10,
+      "particulars": "The Faroe Islands adopted the Gregorian calendar on 11 January 1701, following the lead of Denmark.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "France",
+      "name_at_time": "Kingdom of France",
+      "historic_area": "Kingdom of France",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "France adopted the Gregorian calendar on 15 October 1582, by order of Pope Gregory XIII.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1700,
+      "current_name": "Germany",
+      "name_at_time": "Holy Roman Empire",
+      "historic_area": "Holy Roman Empire",
+      "date_before_transition": "1699-12-31",
+      "date_after_transition": "1700-01-11",
+      "days_omitted": 10,
+      "particulars": "The Holy Roman Empire adopted the Gregorian calendar on 11 January 1700, following the lead of the Protestant states of Germany.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Georgia",
+      "name_at_time": "Democratic Republic of Georgia",
+      "historic_area": "Democratic Republic of Georgia",
+      "date_before_transition": "1918-01-31",
+      "date_after_transition": "1918-02-13",
+      "days_omitted": 12,
+      "particulars": "Georgia adopted the Gregorian calendar on 13 February 1918, following the lead of the Russian Empire.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1923,
+      "current_name": "Greece",
+      "name_at_time": "Kingdom of Greece",
+      "historic_area": "Kingdom of Greece",
+      "date_before_transition": "1923-02-13",
+      "date_after_transition": "1923-02-24",
+      "days_omitted": 11,
+      "particulars": "Greece adopted the Gregorian calendar on 24 February 1923, following the lead of the rest of Europe.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1587,
+      "current_name": "Hungary",
+      "name_at_time": "Kingdom of Hungary",
+      "historic_area": "Kingdom of Hungary",
+      "date_before_transition": "1587-12-31",
+      "date_after_transition": "1588-01-11",
+      "days_omitted": 10,
+      "particulars": "Hungary adopted the Gregorian calendar on 11 January 1588, following the lead of the Roman Catholic Church.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1700,
+      "current_name": "Iceland",
+      "name_at_time": "Kingdom of Denmark",
+      "historic_area": "Kingdom of Denmark",
+      "date_before_transition": "1699-12-31",
+      "date_after_transition": "1700-01-11",
+      "days_omitted": 10,
+      "particulars": "Iceland adopted the Gregorian calendar on 11 January 1700, following the lead of Denmark.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1752,
+      "current_name": "Ireland",
+      "name_at_time": "Kingdom of Ireland",
+      "historic_area": "Kingdom of Ireland",
+      "date_before_transition": "1752-09-02",
+      "date_after_transition": "1752-09-14",
+      "days_omitted": 11,
+      "particulars": "Ireland adopted the Gregorian calendar on 14 September 1752, following the lead of Great Britain.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Italy",
+      "name_at_time": "Papal States",
+      "historic_area": "Papal States",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "The Papal States adopted the Gregorian calendar on 15 October 1582, by order of Pope Gregory XIII.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1873,
+      "current_name": "Japan",
+      "name_at_time": "Empire of Japan",
+      "historic_area": "Empire of Japan",
+      "date_before_transition": "1872-12-31",
+      "date_after_transition": "1873-01-01",
+      "days_omitted": 0,
+      "particulars": "Japan adopted the Gregorian calendar on 1 January 1873, by order of Emperor Meiji.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1900,
+      "current_name": "Laos",
+      "name_at_time": "French protectorate of Laos",
+      "historic_area": "French protectorate of Laos",
+      "date_before_transition": "1899-12-31",
+      "date_after_transition": "1900-01-11",
+      "days_omitted": 10,
+      "particulars": "Laos adopted the Gregorian calendar on 11 January 1900, following the lead of France.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1582,
+      "current_name": "Luxembourg",
+      "name_at_time": "Duchy of Luxembourg",
+      "historic_area": "Duchy of Luxembourg",
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "particulars": "The Duchy of Luxembourg adopted the Gregorian calendar on 15 October 1582, by order of Holy Roman Emperor Rudolf II.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1919,
+      "current_name": "Montenegro",
+      "name_at_time": "Kingdom of Montenegro",
+      "historic_area": "Kingdom of Montenegro",
+      "date_before_transition": "1918-12-31",
+      "date_after_transition": "1919-01-13",
+      "days_omitted": 12,
+      "particulars": "Montenegro adopted the Gregorian calendar on 13 January 1919, following the lead of Serbia.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Latvia",
+      "name_at_time": "Republic of Latvia",
+      "historic_area": "Republic of Latvia",
+      "date_before_transition": "1918-02-13",
+      "date_after_transition": "1918-02-24",
+      "days_omitted": 11,
+      "particulars": "Latvia adopted the Gregorian calendar on 24 February 1918, following the lead of Russia.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1918,
+      "current_name": "Lithuania",
+      "name_at_time": "Republic of Lithuania",
+      "historic_area": "Republic of Lithuania",
+      "date_before_transition": "1918-02-13",
+      "date_after_transition": "1918-02-24",
+      "days_omitted": 11,
+      "particulars": "Lithuania adopted the Gregorian calendar on 24 February 1918, following the lead of Russia.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "year_of_transition": 1886,
+      "current_name": "Myanmar",
+      "name_at_time": "British Burma",
+      "historic_area": "British Burma",
+      "date_before_transition": "1885-12-31",
+      "date_after_transition": "1886-01-11",
+      "days_omitted": 10,
+      "particulars": "Myanmar (then known as British Burma) adopted the Gregorian calendar on 11 January 1886, following the lead of the British government.",
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Netherlands",
+      "year_of_transition": 1700,
+      "date_before_transition": "1699-12-31",
+      "date_after_transition": "1700-01-11",
+      "days_omitted": 10,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Joseon",
+      "year_of_transition": 1896,
+      "date_before_transition": "1895-12-31",
+      "date_after_transition": "1896-01-01",
+      "days_omitted": 0,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "North Macedonia",
+      "year_of_transition": 1919,
+      "date_before_transition": "1919-02-01",
+      "date_after_transition": "1919-03-13",
+      "days_omitted": 12,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Norway",
+      "year_of_transition": 1700,
+      "date_before_transition": "1699-12-31",
+      "date_after_transition": "1700-01-11",
+      "days_omitted": 10,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Norway",
+      "year_of_transition": 1700,
+      "date_before_transition": "1699-12-31",
+      "date_after_transition": "1700-01-11",
+      "days_omitted": 10,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Poland",
+      "year_of_transition": 1582,
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Portugal",
+      "year_of_transition": 1582,
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Romania",
+      "year_of_transition": 1919,
+      "date_before_transition": "1919-01-31",
+      "date_after_transition": "1919-02-14",
+      "days_omitted": 13,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Russia",
+      "year_of_transition": 1918,
+      "date_before_transition": "1918-01-31",
+      "date_after_transition": "1918-02-14",
+      "days_omitted": 13,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Saudi Arabia",
+      "year_of_transition": 1926,
+      "date_before_transition": "1926-01-01",
+      "date_after_transition": "1926-01-03",
+      "days_omitted": 2,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Serbia",
+      "year_of_transition": 1919,
+      "date_before_transition": "1919-01-31",
+      "date_after_transition": "1919-02-14",
+      "days_omitted": 13,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Slovenia",
+      "year_of_transition": 1919,
+      "date_before_transition": "1919-01-31",
+      "date_after_transition": "1919-02-14",
+      "days_omitted": 13,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Spain",
+      "year_of_transition": 1582,
+      "date_before_transition": "1582-10-04",
+      "date_after_transition": "1582-10-15",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "South Korea",
+      "year_of_transition": 1896,
+      "date_before_transition": "1895-12-31",
+      "date_after_transition": "1896-01-01",
+      "days_omitted": 0,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Sweden",
+      "year_of_transition": 1753,
+      "date_before_transition": "1752-12-31",
+      "date_after_transition": "1753-01-17",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Switzerland",
+      "year_of_transition": 1584,
+      "date_before_transition": "1583-12-31",
+      "date_after_transition": "1584-01-11",
+      "days_omitted": 10,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Thailand",
+      "year_of_transition": 1888,
+      "date_before_transition": "1887-12-31",
+      "date_after_transition": "1888-01-12",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Turkey",
+      "year_of_transition": 1926,
+      "date_before_transition": "1925-12-31",
+      "date_after_transition": "1926-01-01",
+      "days_omitted": 0,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "Ukraine",
+      "year_of_transition": 1918,
+      "date_before_transition": "1918-01-31",
+      "date_after_transition": "1918-02-14",
+      "days_omitted": 13,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "United Kingdom",
+      "year_of_transition": 1752,
+      "date_before_transition": "1751-12-31",
+      "date_after_transition": "1752-09-14",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    },
+    {
+      "country": "United States of America",
+      "year_of_transition": 1752,
+      "date_before_transition": "1751-12-31",
+      "date_after_transition": "1752-09-14",
+      "days_omitted": 11,
+      "source": "https://en.wikipedia.org/wiki/List_of_adoption_dates_of_the_Gregorian_calendar_by_country"
+    }
+  ]
+}
