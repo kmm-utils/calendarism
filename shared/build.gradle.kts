@@ -2,14 +2,14 @@
 
 import org.jetbrains.kotlin.gradle.dsl.JsModuleKind.MODULE_COMMONJS
 import org.jetbrains.kotlin.gradle.dsl.JsModuleKind.MODULE_UMD
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
+import java.net.URI
 
 @Suppress("DSL_SCOPE_VIOLATION")  // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.multiplatform)
-    alias(libs.plugins.kotlin.cocoapods)
-    id("maven-publish")
+    alias(libs.plugins.kotlin.serialization)
+    `maven-publish`
 }
 
 val javaVersionValue = rootProject.extra["javaVersion"] as JavaVersion
@@ -24,7 +24,7 @@ kotlin {
 
     targetHierarchy.default()
 
-    android {
+    androidTarget() {
         publishAllLibraryVariants()
 
         compilations.all {
@@ -83,64 +83,6 @@ kotlin {
         }
     }
 
-    @OptIn(ExperimentalWasmDsl::class)
-    wasm {
-        d8()
-    }
-
-    // Windows cross-compiling target
-    mingwX64 {
-        binaries {
-            sharedLib {
-                baseName = "lib$moduleNameValue"
-            }
-        }
-    }
-
-    linuxX64 {
-        binaries {
-            sharedLib {
-                baseName = moduleNameValue
-            }
-        }
-    }
-
-    linuxArm64 {
-        binaries {
-            sharedLib {
-                baseName = moduleNameValue
-            }
-        }
-    }
-
-    macosX64 {
-        binaries {
-            sharedLib {
-                baseName = moduleNameValue
-            }
-        }
-    }
-
-    macosArm64 {
-        binaries {
-            sharedLib {
-                baseName = moduleNameValue
-            }
-        }
-    }
-
-    iosX64()
-    iosArm64()
-    iosSimulatorArm64()
-
-    watchosX64()
-    watchosArm64()
-    watchosSimulatorArm64()
-
-    tvosX64()
-    tvosArm64()
-    tvosSimulatorArm64()
-
     targets {
         js {
             browser {
@@ -182,26 +124,14 @@ kotlin {
         }
     }
 
-    cocoapods {
-        summary = "Some description for the Shared Module"
-        homepage = "Link to the Shared Module homepage"
-        version = rootProject.extra["versionName"] as String
-
-        ios.deploymentTarget = libs.versions.ios.deployment.target.get()
-        watchos.deploymentTarget = libs.versions.ios.deployment.target.get()
-        tvos.deploymentTarget = libs.versions.ios.deployment.target.get()
-
-        framework {
-            baseName = "shared"
-        }
-    }
-
     sourceSets {
         val commonMain by getting {
             dependencies {
                 implementation(libs.kotlinx.coroutines.core)
 
                 implementation(kotlin("reflect"))
+                implementation(libs.kotlinx.serialization.core.core)
+                implementation(libs.kotlinx.serialization.json)
             }
         }
 
@@ -241,256 +171,6 @@ kotlin {
             dependsOn(androidMain)
             dependsOn(commonTest)
         }
-
-        val linuxX64Main by getting {
-            dependencies {
-            }
-        }
-
-        val linuxArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val linuxMain by getting {
-            dependsOn(commonMain)
-
-            linuxX64Main.dependsOn(this)
-            linuxArm64Main.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val linuxX64Test by getting {
-            dependencies {
-                dependsOn(linuxX64Main)
-            }
-        }
-
-        val linuxArm64Test by getting {
-            dependencies {
-                dependsOn(linuxArm64Main)
-            }
-        }
-
-        val linuxTest by getting {
-            dependsOn(linuxMain)
-            dependsOn(commonTest)
-
-            linuxX64Test.dependsOn(this)
-            linuxArm64Test.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val mingwX64Main by getting {
-            dependencies {
-            }
-        }
-
-        val mingwMain by getting {
-            dependsOn(commonMain)
-
-            mingwX64Main.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val mingwX64Test by getting {
-            dependencies {
-                dependsOn(mingwX64Main)
-            }
-        }
-
-        val mingwTest by getting {
-            dependsOn(mingwMain)
-            dependsOn(commonTest)
-
-            mingwX64Test.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val appleMain by getting {
-            dependsOn(commonMain)
-
-            dependencies {
-            }
-        }
-
-        val appleTest by getting {
-            dependsOn(appleMain)
-            dependsOn(commonTest)
-
-            dependencies {
-            }
-        }
-
-        val macosX64Main by getting {
-            dependencies {
-            }
-        }
-
-        val macosArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val macosMain by getting {
-            dependsOn(appleMain)
-
-            macosX64Main.dependsOn(this)
-            macosArm64Main.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val macosX64Test by getting {
-            dependencies {
-                dependsOn(macosX64Main)
-            }
-        }
-
-        val macosArm64Test by getting {
-            dependencies {
-                dependsOn(macosArm64Main)
-            }
-        }
-
-        val macosTest by getting {
-            dependsOn(appleTest)
-
-            macosX64Test.dependsOn(this)
-            macosArm64Test.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val iosX64Main by getting {
-            dependencies {
-            }
-        }
-
-        val iosArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val iosSimulatorArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val iosMain by getting {
-            dependsOn(appleMain)
-
-            iosX64Main.dependsOn(this)
-            iosArm64Main.dependsOn(this)
-            iosSimulatorArm64Main.dependsOn(this)
-
-            dependencies {
-            }
-        }
-
-        val iosX64Test by getting {
-            dependsOn(iosX64Main)
-        }
-
-        val iosArm64Test by getting {
-            dependsOn(iosArm64Main)
-        }
-
-        val iosSimulatorArm64Test by getting {
-            dependsOn(iosSimulatorArm64Main)
-        }
-
-        val iosTest by getting {
-            dependsOn(appleTest)
-
-            iosX64Test.dependsOn(this)
-            iosArm64Test.dependsOn(this)
-            iosSimulatorArm64Test.dependsOn(this)
-        }
-
-        val watchosX64Main by getting
-        val watchosArm64Main by getting
-        val watchosSimulatorArm64Main by getting
-        val watchosMain by getting {
-            dependsOn(appleMain)
-
-            watchosX64Main.dependsOn(this)
-            watchosArm64Main.dependsOn(this)
-            watchosSimulatorArm64Main.dependsOn(this)
-        }
-
-        val watchosX64Test by getting {
-            dependsOn(watchosX64Main)
-        }
-
-        val watchosArm64Test by getting {
-            dependsOn(watchosArm64Main)
-        }
-
-        val watchosSimulatorArm64Test by getting {
-            dependsOn(watchosSimulatorArm64Main)
-        }
-
-        val watchosTest by getting {
-            dependsOn(appleTest)
-
-            watchosX64Test.dependsOn(this)
-            watchosArm64Test.dependsOn(this)
-            watchosSimulatorArm64Test.dependsOn(this)
-        }
-
-        val tvosX64Main by getting {
-            dependencies {
-            }
-        }
-
-        val tvosArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val tvosSimulatorArm64Main by getting {
-            dependencies {
-            }
-        }
-
-        val tvosMain by getting {
-            dependsOn(appleMain)
-
-            tvosX64Main.dependsOn(this)
-            tvosArm64Main.dependsOn(this)
-            tvosSimulatorArm64Main.dependsOn(this)
-        }
-
-        val tvosX64Test by getting {
-            dependsOn(tvosX64Main)
-        }
-
-        val tvosArm64Test by getting {
-            dependsOn(tvosArm64Main)
-        }
-
-        val tvosSimulatorArm64Test by getting {
-            dependsOn(tvosSimulatorArm64Main)
-        }
-
-        val tvosTest by getting {
-            dependsOn(appleTest)
-
-            tvosX64Test.dependsOn(this)
-            tvosArm64Test.dependsOn(this)
-            tvosSimulatorArm64Test.dependsOn(this)
-        }
     }
 }
 
@@ -501,6 +181,55 @@ fun JavaVersion.getInt(): Int {
 tasks.withType<Wrapper> {
     gradleVersion = "8.0"
     distributionType = Wrapper.DistributionType.ALL
+}
+
+group = "kmm.utils"
+version = "0.01"
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            artifactId = "calendarism"
+
+            if (components.isEmpty()) logger.lifecycle(">>> EMPTY Components!")
+            from(components["kotlin"])
+
+            pom {
+                name.set("Kotlin Mobile Multiplatform Calendarism Utils")
+                description.set("Methods and classes to do transformations and operations on different calendars")
+                url.set("https://github.com/kmm-utils/calendarism")
+                licenses {
+                    license {
+                        name.set("MIT")
+                        url.set("https://mit-license.org/")
+                    }
+                }
+                developers {
+                    developer {
+                        id.set("arlm")
+                        name.set("Alexandre Rocha Lima e Marcondes")
+                        email.set("alexandre.marcondes@gmail.com")
+                    }
+                }
+                scm {
+                    connection.set("scm:git:git://github.com:kmm-utils/calendarism.git")
+                    developerConnection.set("scm:git:ssh://git@github.com:kmm-utils/calendarism.git")
+                    url.set("https://github.com/kmm-utils/calendarism")
+                }
+            }
+        }
+    }
+
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = URI.create("https://maven.pkg.github.com/kmm-utils/calendarism")
+            credentials {
+                username = System.getenv("GITHUB_ACTOR") ?: System.getenv("USERNAME")
+                password = System.getenv("GITHUB_TOKEN") ?: System.getenv("TOKEN")
+            }
+        }
+    }
 }
 
 android {

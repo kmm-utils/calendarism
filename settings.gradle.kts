@@ -11,14 +11,17 @@ pluginManagement {
 
 @Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
-    file(".env").readLines().forEach {
-        if (it.isNotEmpty() && !it.startsWith("#")) {
-            val pos = it.indexOf("=")
-            val key = it.substring(0, pos)
-            val value = it.substring(pos + 1)
+    val dotEnv = file(".env")
+    if (dotEnv.exists()) {
+        dotEnv.readLines().forEach {
+            if (it.isNotEmpty() && !it.startsWith("#")) {
+                val pos = it.indexOf("=")
+                val key = it.substring(0, pos)
+                val value = it.substring(pos + 1)
 
-            if (System.getenv(key) == null) {
-                System.setProperty(key, value)
+                if (System.getenv(key) == null) {
+                    System.setProperty(key, value)
+                }
             }
         }
     }
@@ -53,5 +56,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MyLibrary"
+rootProject.name = "Calendarism"
 include(":shared")

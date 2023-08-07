@@ -14,9 +14,9 @@ val targetSdkEdge by extra(libs.versions.target.sdk.edge.get().toInt())
 val versionCode by extra(1)
 val versionName by extra("1.0.0")
 
-var libraryId by extra("com.example.kmmwire.shared")
-var moduleName by extra("libraryTemplate")
-var outputJsFilename by extra("template-library.js")
+var libraryId by extra("kmm.utils.calendarism")
+var moduleName by extra("calendarism")
+var outputJsFilename by extra("calendarism.js")
 
 buildscript {
     repositories {
@@ -37,7 +37,6 @@ plugins {
     //trick: for the same plugin versions in all sub-modules
     alias(libs.plugins.android.library).apply(false)
     alias(libs.plugins.kotlin.multiplatform).apply(false)
-    alias(libs.plugins.kotlin.cocoapods).apply(false)
     alias(libs.plugins.kotlin.kapt).apply(false)
     alias(libs.plugins.kotlin.jvm).apply(false)
 }
