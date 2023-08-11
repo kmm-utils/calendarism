@@ -10,8 +10,7 @@ interface Calendar {
     val description: String?
     val numberOfMonths: Int
     val months: Array<CalendarMonth>
-    val hasAdjustment: Boolean
-    val adjustmentDays: Int
+
     fun getAdjustmentDays(year: Int): Int
     fun getAdjustmentMonths(year: Int): Array<CalendarMonth>
     fun isActive(year: Int): Boolean
