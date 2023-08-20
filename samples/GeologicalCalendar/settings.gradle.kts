@@ -49,7 +49,7 @@ dependencyResolutionManagement {
             version("java", "17")
             version("min-sdk-stable", "21")
             version("target-sdk-stable", "33")
-            version("kotlin-compiler-extension", "1.4.3")
+            version("kotlin-compiler-extension", "1.5.1")
         }
     }
 }
