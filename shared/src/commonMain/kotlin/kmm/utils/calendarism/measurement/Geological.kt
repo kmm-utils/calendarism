@@ -1,4 +1,4 @@
-//@file:Suppress("unused")
+@file:Suppress("unused")
 
 package kmm.utils.calendarism.measurement
 
@@ -182,46 +182,325 @@ enum class GeologicalPeriod(val years: LongRange, val epochs: Array<GeologicalEp
     Siderian(-2_500_000_000L until -2_300_000_000L, arrayOf()),
 }
 
-enum class GeologicalEpoch(val years: LongRange) {
-    Holocene(-11_700L until 0L),
-    Pleistocene(-2_588_000L until -11_700L),
-    Pliocene(-5_333_000L until -2_588_000L),
-    Miocene(-23_030_000L until -5_333_000L),
-    Oligocene(-33_900_000L until -23_030_000L),
-    Eocene(-56_000_000L until -33_900_000L),
-    Paleocene(-66_000_000L until -56_000_000L),
-    UpperCretaceous(-100_500_000L until -66_000_000L),
-    LowerCretaceous(-145_000_000L until -100_500_000L),
-    UpperJurassic(-163_500_000L until -145_000_000L),
-    MiddleJurassic(-174_100_000L until -163_500_000L),
-    LowerJurassic(-201_300_000L until -174_100_000L),
-    UpperTriassic(-237_000_000L until -201_300_000L),
-    MiddleTriassic(-247_200_000L until -237_000_000L),
-    LowerTriassic(-252_170_000L until -247_200_000L),
-    Lopingian(-259_800_000L until -252_170_000L),
-    Guadalupian(-272_300_000L until -259_800_000L),
-    Cisuralian(-298_900_000L until -272_300_000L),
-    UpperPennsylvanian(-307_000_000L until -298_900_000L),
-    MiddlePennsylvanian(-315_200_000L until -307_000_000L),
-    LowerPennsylvanian(-323_200_000L until -315_200_000L),
-    UpperMississippian(-330_900_000L until -323_200_000L),
-    MiddleMississippian(-346_700_000L until -330_900_000L),
-    LowerMississippian(-358_900_000L until -346_700_000L),
-    UpperDevonian(-382_700_000L until -358_900_000L),
-    MiddleDevonian(-393_300_000L until -382_700_000L),
-    LowerDevonian(-419_200_000L until -393_300_000L),
-    Pridoli(-423_000_000L until -358_900_000L),
-    Ludlow(-427_400_000L until -423_000_000L),
-    Wenlock(-433_400_000L until -427_400_000L),
-    Llandovery(-443_400_000L until -433_400_000L),
-    UpperOrdovician(-458_400_000L until -443_400_000L),
-    MiddleOrdovician(-470_000_000L until -458_400_000L),
-    LowerOrdovician(-485_400_000L until -470_000_000L),
-    Furongian(-497_000_000L until -485_400_000L),
-    Series3(-509_000_000L until -497_000_000L),
-    Series2(-521_000_000L until -509_000_000L),
-    Terreneuvian(-541_000_000L until -521_000_000L),
+enum class GeologicalEpoch(val years: LongRange, val ages: Array<GeologicalAge>) {
+    Holocene(
+        GeologicalAge.Greenlandian.years.first until GeologicalAge.Meghalayan.years.last,
+        arrayOf(GeologicalAge.Greenlandian, GeologicalAge.Northgrippian, GeologicalAge.Meghalayan)
+    ),
+    Pleistocene(
+        GeologicalAge.Gelasian.years.first until -GeologicalAge.UpperPleistocene.years.last,
+        arrayOf(
+            GeologicalAge.Gelasian,
+            GeologicalAge.Calabrian,
+            GeologicalAge.MiddlePleistocene,
+            GeologicalAge.UpperPleistocene
+        )
+    ),
+    Pliocene(
+        GeologicalAge.Zanclean.years.first until GeologicalAge.Piacenzian.years.last,
+        arrayOf(GeologicalAge.Zanclean, GeologicalAge.Piacenzian)
+    ),
+    Miocene(
+        GeologicalAge.Aquitanian.years.first until GeologicalAge.Messinian.years.last,
+        arrayOf(
+            GeologicalAge.Aquitanian,
+            GeologicalAge.Burdigalian,
+            GeologicalAge.Langhian,
+            GeologicalAge.Serravallian,
+            GeologicalAge.Tortonian,
+            GeologicalAge.Messinian
+        )
+    ),
+    Oligocene(
+        GeologicalAge.Rupelian.years.first until GeologicalAge.Chattian.years.last,
+        arrayOf(GeologicalAge.Rupelian, GeologicalAge.Chattian)
+    ),
+    Eocene(
+        GeologicalAge.Ypresian.years.first until GeologicalAge.Priabonian.years.last,
+        arrayOf(
+            GeologicalAge.Ypresian,
+            GeologicalAge.Lutetian,
+            GeologicalAge.Bartonian,
+            GeologicalAge.Priabonian
+        )
+    ),
+    Paleocene(
+        GeologicalAge.Danian.years.first until GeologicalAge.Thanetian.years.last,
+        arrayOf(GeologicalAge.Danian, GeologicalAge.Selandian, GeologicalAge.Thanetian)
+    ),
+    UpperCretaceous(
+        GeologicalAge.Cenomanian.years.first until GeologicalAge.Maastrichtian.years.last,
+        arrayOf(
+            GeologicalAge.Cenomanian,
+            GeologicalAge.Turonian,
+            GeologicalAge.Coniacian,
+            GeologicalAge.Santonian,
+            GeologicalAge.Campanian,
+            GeologicalAge.Maastrichtian
+        )
+    ),
+    LowerCretaceous(
+        GeologicalAge.Berriasian.years.first until GeologicalAge.Albian.years.last,
+        arrayOf(
+            GeologicalAge.Berriasian,
+            GeologicalAge.Valanginian,
+            GeologicalAge.Hauterivian,
+            GeologicalAge.Barremian,
+            GeologicalAge.Aptian,
+            GeologicalAge.Albian,
+        )
+    ),
+    UpperJurassic(
+        GeologicalAge.Oxfordian.years.first until GeologicalAge.Tithonian.years.last,
+        arrayOf(GeologicalAge.Oxfordian, GeologicalAge.Kimmeridgian, GeologicalAge.Tithonian)
+    ),
+    MiddleJurassic(
+        GeologicalAge.Aalenian.years.first until GeologicalAge.Callovian.years.last,
+        arrayOf(
+            GeologicalAge.Aalenian,
+            GeologicalAge.Bajocian,
+            GeologicalAge.Bathonian,
+            GeologicalAge.Callovian
+        )
+    ),
+    LowerJurassic(
+        GeologicalAge.Hettangian.years.first until GeologicalAge.Toarcian.years.last,
+        arrayOf(
+            GeologicalAge.Hettangian,
+            GeologicalAge.Sinemurian,
+            GeologicalAge.Pliensbachian,
+            GeologicalAge.Toarcian
+        )
+    ),
+    UpperTriassic(
+        GeologicalAge.Carnian.years.first until GeologicalAge.Rhaetian.years.last,
+        arrayOf(GeologicalAge.Carnian, GeologicalAge.Norian, GeologicalAge.Rhaetian)
+    ),
+    MiddleTriassic(
+        GeologicalAge.Anisian.years.first until GeologicalAge.Ladinian.years.last,
+        arrayOf(GeologicalAge.Anisian, GeologicalAge.Ladinian)
+    ),
+    LowerTriassic(
+        GeologicalAge.Induan.years.first until GeologicalAge.Olenekian.years.last,
+        arrayOf(GeologicalAge.Induan, GeologicalAge.Olenekian)
+    ),
+    Lopingian(
+        GeologicalAge.Wuchiapingian.years.first until GeologicalAge.Changhsingian.years.last,
+        arrayOf(GeologicalAge.Wuchiapingian, GeologicalAge.Changhsingian)
+    ),
+    Guadalupian(
+        GeologicalAge.Kungurian.years.first until GeologicalAge.Capitanian.years.last,
+        arrayOf(
+            GeologicalAge.Kungurian,
+            GeologicalAge.Roadian,
+            GeologicalAge.Wordian,
+            GeologicalAge.Capitanian
+        )
+    ),
+    Cisuralian(
+        GeologicalAge.Asselian.years.first until GeologicalAge.Artinskian.years.last,
+        arrayOf(GeologicalAge.Asselian, GeologicalAge.Sakmarian, GeologicalAge.Artinskian)
+    ),
+    UpperPennsylvanian(
+        GeologicalAge.Kasimovian.years.first until GeologicalAge.Gzhelian.years.last,
+        arrayOf(GeologicalAge.Kasimovian, GeologicalAge.Gzhelian)
+    ),
+    MiddlePennsylvanian(
+        GeologicalAge.Moscovian.years.first until GeologicalAge.Moscovian.years.last,
+        arrayOf(GeologicalAge.Moscovian)
+    ),
+    LowerPennsylvanian(
+        GeologicalAge.Bashkirian.years.first until GeologicalAge.Bashkirian.years.last,
+        arrayOf(GeologicalAge.Bashkirian)
+    ),
+    UpperMississippian(
+        GeologicalAge.Serpukhovian.years.first until GeologicalAge.Serpukhovian.years.last,
+        arrayOf(GeologicalAge.Serpukhovian)
+    ),
+    MiddleMississippian(
+        GeologicalAge.Visean.years.first until GeologicalAge.Visean.years.last,
+        arrayOf(GeologicalAge.Visean)
+    ),
+    LowerMississippian(
+        GeologicalAge.Tournaisian.years.first until GeologicalAge.Tournaisian.years.last,
+        arrayOf(GeologicalAge.Tournaisian)
+    ),
+    UpperDevonian(
+        GeologicalAge.Frasnian.years.first until GeologicalAge.Famennian.years.last,
+        arrayOf(GeologicalAge.Frasnian, GeologicalAge.Famennian)
+    ),
+    MiddleDevonian(
+        GeologicalAge.Eifelian.years.first until GeologicalAge.Givetian.years.last,
+        arrayOf(GeologicalAge.Eifelian, GeologicalAge.Givetian)
+    ),
+    LowerDevonian(
+        GeologicalAge.Lochkovian.years.first until GeologicalAge.Emsian.years.last,
+        arrayOf(GeologicalAge.Lochkovian, GeologicalAge.Pragian, GeologicalAge.Emsian)
+    ),
+    Pridoli(
+        GeologicalAge.Pridoli.years.first until GeologicalAge.Pridoli.years.last,
+        arrayOf(GeologicalAge.Pridoli)
+    ),
+    Ludlow(
+        GeologicalAge.Gorstian.years.first until GeologicalAge.Ludfordian.years.last,
+        arrayOf(GeologicalAge.Gorstian, GeologicalAge.Ludfordian)
+    ),
+    Wenlock(
+        GeologicalAge.Sheinwoodian.years.first until GeologicalAge.Homerian.years.last,
+        arrayOf(GeologicalAge.Sheinwoodian, GeologicalAge.Homerian)
+    ),
+    Llandovery(
+        GeologicalAge.Rhuddanian.years.first until GeologicalAge.Telychian.years.last,
+        arrayOf(GeologicalAge.Rhuddanian, GeologicalAge.Aeronian, GeologicalAge.Telychian)
+    ),
+    UpperOrdovician(
+        GeologicalAge.Sandbian.years.first until GeologicalAge.Hirnantian.years.last,
+        arrayOf(GeologicalAge.Sandbian, GeologicalAge.Katian, GeologicalAge.Hirnantian)
+    ),
+    MiddleOrdovician(
+        GeologicalAge.Dapingian.years.first until GeologicalAge.Darriwilian.years.last,
+        arrayOf(GeologicalAge.Dapingian, GeologicalAge.Darriwilian)
+    ),
+    LowerOrdovician(
+        GeologicalAge.Tremadocian.years.first until -GeologicalAge.Floian.years.last,
+        arrayOf(GeologicalAge.Tremadocian, GeologicalAge.Floian)
+    ),
+    Furongian(
+        GeologicalAge.Stage8.years.first until GeologicalAge.Stage10.years.last,
+        arrayOf(GeologicalAge.Stage8, GeologicalAge.Stage9, GeologicalAge.Stage10)
+    ),
+    Series3(
+        GeologicalAge.Stage5.years.first until GeologicalAge.Stage7.years.last,
+        arrayOf(GeologicalAge.Stage5, GeologicalAge.Stage6, GeologicalAge.Stage7)
+    ),
+    Series2(
+        GeologicalAge.Stage3.years.first until GeologicalAge.Stage4.years.last,
+        arrayOf(GeologicalAge.Stage3, GeologicalAge.Stage4)
+    ),
+    Terreneuvian(
+        GeologicalAge.Stage2.years.first until GeologicalAge.Stage1.years.last,
+        arrayOf(GeologicalAge.Stage2, GeologicalAge.Stage1)
+    ),
 }
 
+enum class GeologicalAge(val years: LongRange) {
+    Meghalayan(-4_200L until 0L),
+    Northgrippian(-8_200L until -4_200L),
+    Greenlandian(-11_700L until -8_200L),
+    UpperPleistocene(-126_000L until -11_700L),
+    MiddlePleistocene(-781_000L until -126_000L),
+    Calabrian(-1_800_000L until -781_000L),
+    Gelasian(-2_580_000L until -1_800_000L),
+    LowerPleistocene(-2_580_000L until -781_000L),
+    Piacenzian(-3_600_000L until -2_580_000L),
+    Zanclean(-5_333_000L until -3_600_000L),
+    Messinian(-7_246_000L until -5_333_000L),
+    Tortonian(-11_630_000L until -7_246_000L),
+    Serravallian(-13_820_000L until -11_630_000L),
+    Langhian(-15_970_000L until -13_820_000L),
+    Burdigalian(-20_440_000L until -15_970_000L),
+    Aquitanian(-23_030_000L until -20_440_000L),
+    Chattian(-28_100_000L until -23_030_000L),
+    Rupelian(-33_900_000L until -28_100_000L),
+    Priabonian(-38_000_000L until -33_900_000L),
+    Bartonian(-41_300_000L until -38_000_000L),
+    Lutetian(-47_800_000L until -41_300_000L),
+    Ypresian(-56_000_000L until -47_800_000L),
+    Thanetian(-59_200_000L until -56_000_000L),
+    Selandian(-61_600_000L until -59_200_000L),
+    Danian(-66_000_000L until -61_600_000L),
+    Maastrichtian(-72_100_000L until -66_000_000L),
+    Campanian(-83_600_000L until -72_100_000L),
+    Santonian(-86_300_000L until -83_600_000L),
+    Coniacian(-89_800_000L until -86_300_000L),
+    Turonian(-93_900_000L until -89_800_000L),
+    Cenomanian(-100_500_000L until -93_900_000L),
+    Albian(-113_000_000L until -100_500_000L),
+    Aptian(-125_000_000L until -113_000_000L),
+    Barremian(-129_400_000L until -125_000_000L),
+    Hauterivian(-132_900_000L until -129_400_000L),
+    Valanginian(-139_8000_000L until -132_900_000L),
+    Berriasian(-145_000_000L until -139_800_000L),
+    Tithonian(-152_100_000L until -145000_000L),
+    Kimmeridgian(-157_300_000L until -152_100_000L),
+    Oxfordian(-163_500_000L until -157_300_000L),
+    Callovian(-166_100_000L until -163_500_000L),
+    Bathonian(-168_300_000L until -166_100_000L),
+    Bajocian(-170_300_000L until -168_300_000L),
+    Aalenian(-174_100_000L until -170_300_000L),
+    Toarcian(-182_700_000L until -174_100_000L),
+    Pliensbachian(-190_800_000L until -182_700_000L),
+    Sinemurian(-199_300_000L until -190_800_000L),
+    Hettangian(-201_300_000L until -199_300_000L),
+    Rhaetian(-208_500_000L until 201_300_000L),
+    Norian(-227_000_000L until 208_500_000L),
+    Carnian(-237_000_000L until 227_000_000L),
+    Ladinian(-242_000_000L until 237_000_000L),
+    Anisian(-247_200_000L until -242_000_000L),
+    Olenekian(-251_200_000L until -247_200_000L),
+    Induan(-251_902_000L until -251_200_000L),
+    Changhsingian(-254_200_000L until -251_902_000L),
+    Wuchiapingian(-259_100_000L..-254_200_000L),
+    Capitanian(-265_100_000L until -259_100_000L),
+    Wordian(-268_800_000L until -265_100_000L),
+    Roadian(-272_300_000L until -268_800_000L),
+    Kungurian(-279_300_000L until -272_300_000L),
+    Artinskian(-290_100_000L until -279_300_000L),
+    Sakmarian(-295_000_000L until -290_100_000L),
+    Asselian(-298_900_000L until -295_000_000L),
+    Gzhelian(-303_700_000L until -298_900_000L),
+    Kasimovian(-307000_000L until -303_700_000L),
+    Moscovian(-315_200_000L until -307000_000L),
+    Bashkirian(-323_200_000L until -315_200_000L),
+    Serpukhovian(-330_900_000L until -323_200_000L),
+    Visean(-346_700_000L until -330_900_000L),
+    Tournaisian(-358_900_000L until -346_700_00),
+    Famennian(-372_200_000L until -358_900_000L),
+    Frasnian(-382_700_000L until -372_200_000L),
+    Givetian(-387_700_000L until -382_700_000L),
+    Eifelian(-393_300_000L until -387_700_000L),
+    Emsian(-407_600_000L until -393_300_000L),
+    Pragian(-410_800_000L until -407_600_000L),
+    Lochkovian(-419_200_000L until -410_800_000L),
+    Pridoli(-423_000_000L until -419_200_000L),
+    LateSilurian(-427_400_000L until -423_000_000L),
+    Ludfordian(-425_600_000L until -423_000_000L),
+    Gorstian(-427_400_000L until -425_600_000L),
+    MiddleSilurian(-433_400_000L until -427_400_000L),
+    Homerian(-430_500_000L until -427_400_000L),
+    Sheinwoodian(-433_400_000L until -430_500_000L),
+    EarlySilurian(-443_800_000L until -433_400_000L),
+    Telychian(-438_500_000L until -433_400_000L),
+    Aeronian(-440_800_000L until -438_500_000L),
+    Rhuddanian(-443_800_000L until -440_800_000L),
+    Hirnantian(-445_200_000L until -443_800_000L),
+    Katian(-453_000_000L until -445_200_000L),
+    Sandbian(-458_400_000L until -453_000_000L),
+    Darriwilian(-467_300_000L until -458_400_000L),
+    Dapingian(-470_000_000L until -467_300_000L),
+    Floian(-477_700_000L until -470_000_000L),
+    Tremadocian(-485_400_000L until -477_700_000L),
+    Stage10(-488_300_000L until -485_400_000L),
+    Stage9(-492_000_000L until -488_300_000L),
+    Stage8(-497_000_000L until -492_000_000L),
+    Stage7(-501_000_000L until -497_000_000L),
+    Stage6(-504_000_000L until -501_000_000L),
+    Stage5(-509_000_000L until -504_000_000L),
+    Stage4(-514_000_000L until -509_000_000L),
+    Stage3(-521_000_000L until -514_000_000L),
+    Stage2(-529_000_000L until -521_000_000L),
+    Stage1(-541_000_000L until -529_000_000L),
+    ;
+
+    companion object {
+        val Ionian = MiddlePleistocene
+        val Furongian = Stage10
+        val Jiangshanian = Stage9
+        val Paibian = Stage8
+        val Guzhangian = Stage7
+        val Drumian = Stage6
+        val Fortunian = Stage1
+    }
+}
 
 typealias LongRange = kotlin.ranges.LongRange
