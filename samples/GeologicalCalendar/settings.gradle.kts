@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
         google()
-        gradlePluginPortal()
         mavenCentral()
+        gradlePluginPortal()
 
         maven("https://oss.sonatype.org/content/repositories/snapshots")
         maven("https://s01.oss.sonatype.org/content/repositories/releases/")
@@ -11,7 +11,7 @@ pluginManagement {
 
 @Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
-    val dotEnv = file(".env")
+    val dotEnv = file("../../.env")
     if (dotEnv.exists()) {
         dotEnv.readLines().forEach {
             if (it.isNotEmpty() && !it.startsWith("#")) {
@@ -47,14 +47,13 @@ dependencyResolutionManagement {
             from("kmm.utils:version-catalog:0.4")
 
             version("java", "17")
-            version("min-sdk-stable", "28")
-            version("min-sdk-edge", "31")
+            version("min-sdk-stable", "21")
             version("target-sdk-stable", "33")
-            version("target-sdk-edge", "34")
-            version("ios-deployment-target", "15")
+            version("kotlin-compiler-extension", "1.4.3")
         }
     }
 }
 
-rootProject.name = "Calendarism"
-include(":shared")
+rootProject.name = "Geological Calendar"
+include(":app")
+ 
