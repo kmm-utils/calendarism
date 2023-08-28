@@ -65,6 +65,8 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx.stable)
 
+    implementation("kmm.utils:kmm.utils.calendarism:0.01")
+
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.bundles.compose.ui)
     implementation(libs.bundles.compose.material.phone)
